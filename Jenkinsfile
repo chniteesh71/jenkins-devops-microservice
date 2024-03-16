@@ -17,4 +17,17 @@ pipeline {
             }
         }
     }
+    
+    post {
+        always {
+            echo "Hi there"
+        }
+        success {
+            echo "job ran successfully"
+        }
+        failure {
+            echo "job ran successfully. Please try again"
+        }
+    }
+
 }
