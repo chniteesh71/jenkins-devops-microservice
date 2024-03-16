@@ -1,4 +1,4 @@
-node {
+/*node {
 	stage('Build') {
 		echo "Build"
 	}
@@ -9,7 +9,7 @@ node {
                 echo "Test"
         }
 
-}
+}*/
 # or 
 node {
                 echo "Build"
